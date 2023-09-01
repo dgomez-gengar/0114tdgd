@@ -1,0 +1,136 @@
+body {
+    background-image: url(fondito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: rgb(244, 241, 241);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.555);
+    display: flex;
+    padding-right: 1000px;    
+}
+
+form {
+    
+    margin-top: 50px;
+    margin-left: 0px; /*CON 500 LO PONGO AL MEDIO*/
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 500px;
+    
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+
+select option {
+    padding: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #0062cc;
+}
+
+.alert {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  legend{
+    font-weight: bold;
+  }
+
+  #promedioAnual{
+    font-weight: bold;
+    color: rgb(251, 248, 248);
+  }
+
+  div{
+    border: 1px solid rgb(8, 8, 8);
+    padding: 10px;
+    background-color: rgba(4, 4, 4, 0.555);
+    position: absolute;
+  }
+
+  .button {
+    padding: 10px 20px; 
+    border: none;
+    background-color: #ffffff;
+    color: #676d73;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ccc;
+  }
+
+  a {
+    color: #fff;
+  }
+  
+  .target {
+    color: #fff;
+  }
+
+  
